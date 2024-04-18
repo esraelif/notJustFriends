@@ -1,26 +1,28 @@
 [
   {
     "id": "p1",
-    "createdAt": "4 m",
+    "createdAt": "9 m",
     "User": {
       "id": "u1",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg",
-      "name": "Vadim Savin"
+      "image": "https://images.pexels.com/photos/18702616/pexels-photo-18702616/free-photo-of-fincan-kupa-isim-ad.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Esra Elif"
     },
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg",
+    "description": "Standing atop the cliff, mesmerized by the azure expanse, waves crashing below, serenity embraces. Nature's masterpiece unfolds, a canvas of beauty.",
+    "image": "https://images.pexels.com/photos/620337/pexels-photo-620337.jpeg?auto=compress&cs=tinysrgb&w=600",
     "numberOfLikes": 11,
     "numberOfShares": 2
   },
+
   {
     "id": "p2",
     "createdAt": "10 m",
     "User": {
       "id": "u2",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/elon.png",
-      "name": "Elon Musk"
+      "image": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "name": "Ali Kaan"
     },
-    "description": "Today we launched another rocket 🚀",
+    "description": "Just adopted the cutest little furball! Meet Whiskers, my new feline companion. 😻 Can't wait for all the cuddles and purrs! #NewKitty #FurBaby",
+    "image": "https://images.pexels.com/photos/2071873/pexels-photo-2071873.jpeg?auto=compress&cs=tinysrgb&w=400",
     "numberOfLikes": 312,
     "numberOfShares": 54
   },
@@ -29,11 +31,11 @@
     "createdAt": "10 m",
     "User": {
       "id": "u3",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/jeff.jpeg",
-      "name": "Jeff"
+      "image": "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "name": "Arif Hakan"
     },
-    "description": "View from my office 😍",
-    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/5.jpeg",
+    "description": "Just got my hands on a half car! 🚗💨 Ready to hit the road in this unique ride. Half the size, double the fun! #HalfCarAdventures #UniqueRide",
+    "image": "https://images.pexels.com/photos/3752194/pexels-photo-3752194.jpeg?auto=compress&cs=tinysrgb&h=191.25&fit=crop&w=213.75&dpr=1",
     "numberOfLikes": 234,
     "numberOfShares": 43
   },

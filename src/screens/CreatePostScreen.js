@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { KeyboardAvoidingView, Platform } from "react-native";
 import { Entypo } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
+import { useNavigation } from "@react-navigation/native";
 
 
 const user = {
@@ -17,12 +18,15 @@ const user = {
 const CreatePostScreen = () => {
     const [description, setDescription] = useState("");
     const [image, setImage] = useState(null);
+    const navigation = useNavigation();
     // const insets = useSafeAreaInsets();
 
 
     const onSubmit = () => {
         console.warn("On Submit", description)
         setDescription("")
+
+        navigation.goBack();
     }
     const pickImage = async () => {
         let result = await ImagePicker.launchImageLibraryAsync({
